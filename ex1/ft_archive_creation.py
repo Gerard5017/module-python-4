@@ -18,5 +18,5 @@ if __name__ == "__main__":
             print(line)
         print("\nData inscription complete. Storage unit sealed.")
         print(f"Archive '{filename}' ready for long-term preservation.")
-    except FileNotFoundError as e: 
+    except FileNotFoundError as e:
         print(f"file not found: {e}")

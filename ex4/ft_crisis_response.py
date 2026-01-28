@@ -14,6 +14,7 @@ def crisis_reponse_system(filename: str) -> None:
         print("RESPONSE: Security protocols deny access")
         print("STATUS: Crisis handled, security maintained")
 
+
 if __name__ == "__main__":
     print("=== CYBER ARCHIVES - CRISIS RESPONSE SYSTEM ===\n")
     crisis_reponse_system("../lost_archive.txt")

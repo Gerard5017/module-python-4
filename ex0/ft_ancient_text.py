@@ -10,6 +10,5 @@ if __name__ == "__main__":
         splited = content.split("\n")
         for line in splited:
             print(line)
-    except FileNotFoundError as e: 
+    except FileNotFoundError as e:
         print(f"file not found: {e}")
-        
